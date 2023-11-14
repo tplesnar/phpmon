@@ -1,444 +1,445 @@
 // MENU ITEMS (MI)
 
-"mi_busy" = "PHP Monitor is busy...";
-"mi_unsure" = "We are not sure what version of PHP you are running.";
-"mi_php_version" = "Global version: PHP";
-"mi_php_switch" = "Switch to PHP";
-"mi_php_unsupported" = "Some installed PHP versions are not displayed.";
-"mi_php_broken_1" = "Oof! It appears your PHP installation is broken...";
-"mi_php_broken_2" = "Try running `php -v` in your terminal.";
-"mi_php_broken_3" = "You could also try switching to another version.";
-"mi_php_broken_4" = "Running `brew reinstall php` (or for the equivalent version) might help.";
-"mi_no_php_linked" = "No PHP version linked!";
-"mi_fix_php_link" = "Fix Automatically...";
-"mi_no_php_linked_explain" = "What's This?";
-"mi_php_version_manager" = "PHP Version Manager...";
-"mi_php_config_manager" = "PHP Configuration Editor...";
-"mi_manage_limits" = "Manage Limits...";
+"mi_busy" = "PHP Monitor est occupé...";
+"mi_unsure" = "Nous ne sommes pas sûrs de quelle version de PHP vous utilisez.";
+"mi_php_version" = "Version globale: PHP";
+"mi_php_switch" = "Passer à PHP";
+"mi_php_unsupported" = "Certaines versions de PHP installées ne sont pas affichées.";
+"mi_php_broken_1" = "Oups ! Il semblerait que votre installation de PHP soit endommagée...";
+"mi_php_broken_2" = "Essayez d'exécuter `php -v` dans votre terminal.";
+"mi_php_broken_3" = "Vous pouvez également essayer de passer à une autre version.";
+"mi_php_broken_4" = "Exécuter `brew reinstall php` (ou la commande équivalente pour votre version désirée) pourrait aider.";
+"mi_no_php_linked" = "Aucune version de PHP n'est liée !";
+"mi_fix_php_link" = "Réparer Automatiquement...";
+"mi_no_php_linked_explain" = "Qu'est-ce que c'est ?";
+"mi_php_version_manager" = "Gestionnaire de Versions PHP...";
+"mi_php_config_manager" = "Éditeur de Configuration PHP...";
+"mi_manage_limits" = "Gérer les Limites...";
 
-"mi_diagnostics" = "Diagnostics";
-"mi_active_services" = "Active Services";
-"mi_restart_php_fpm" = "Restart Service: php";
-"mi_restart_nginx" = "Restart Service: nginx";
-"mi_restart_dnsmasq" = "Restart Service: dnsmasq";
-"mi_manage_services" = "Manage Services";
-"mi_restart_valet_services" = "Restart Valet Services";
-"mi_stop_valet_services" = "Stop Valet Services";
+"mi_diagnostics" = "Diagnostiques";
+"mi_active_services" = "Services actifs";
+"mi_restart_php_fpm" = "Redémarrer le service: php";
+"mi_restart_nginx" = "Redémarrer le service: nginx";
+"mi_restart_dnsmasq" = "Redémarrer le service: dnsmasq";
+"mi_manage_services" = "Gérer les services";
+"mi_restart_valet_services" = "Redémarrer les services Valet";
+"mi_stop_valet_services" = "Arrêter les services Valet";
 
-"mi_fix_my_valet" = "Fix My Valet...";
-"mi_fix_my_valet_tooltip" = "Something wrong with your Valet installation? Try PHP Monitor’s automatic fixes that’ll get you back up and running in no time!";
-"mi_fix_brew_permissions" = "Restore Homebrew Permissions...";
-"mi_fix_brew_permissions_tooltip" = "Having permission issues when running `brew upgrade`? PHP Monitor to the rescue!";
+"mi_fix_my_valet" = "Réparer mon Valet...";
+"mi_fix_my_valet_tooltip" = "Un problème avec votre installation de Valet ? Essayez les correctifs automatiques de PHP Monitor qui vous permettront d'être à nouveau opérationnel en un rien de temps !";
+"mi_fix_brew_permissions" = "Restaurer les permissions Homebrew";
+"mi_fix_brew_permissions_tooltip" = "Des problèmes de permission lors de l'exécution de `brew upgrade` ? PHP Monitor vient à votre rescousse !";
 
-"mi_php_refresh" = "Refresh Information";
+"mi_php_refresh" = "Actualiser les informations.";
 
-"mi_configuration" = "PHP Configuration";
-"mi_limits" = "Limits Configuration";
-"mi_memory_limit" = "Memory Limit";
-"mi_post_max_size" = "Max POST";
-"mi_upload_max_filesize" = "Max Upload";
-"mi_manual_actions" = "Manual Actions";
+"mi_configuration" = "Configuration PHP";
+"mi_limits" = "Configuration des limites";
+"mi_memory_limit" = "Limite de mémoire";
+"mi_post_max_size" = "Taille maximale POST";
+"mi_upload_max_filesize" = "Taille maximal d'upload";
+"mi_manual_actions" = "Actions manuelles";
 "mi_services" = "Services";
-"mi_other" = "First Aid & Services";
-"mi_first_aid" = "First Aid";
+"mi_other" = "Dépannage & services";
+"mi_first_aid" = "Dépannage";
 
-"mi_xdebug_mode" = "Manage Xdebug";
+"mi_xdebug_mode" = "Gérer Xdebug";
 
 "mi_composer" = "Composer";
-"mi_valet_config" = "Locate Valet Folder (.config/valet)";
-"mi_php_config" = "Locate PHP Configuration File (php.ini)";
-"mi_phpmon_config" = "Locate PHP Monitor Folder (.config/phpmon)";
-"mi_global_composer" = "Locate Global Composer File (.composer)";
-"mi_phpinfo" = "Show Current Configuration (phpinfo)";
-"mi_update_global_composer" = "Update Global Composer Dependencies...";
-"mi_detected_extensions" = "Detected Extensions";
-"mi_no_extensions_detected" = "No additional extensions detected.";
+"mi_valet_config" = "Localiser le dossier Valet (.config/valet)";
+"mi_php_config" = "Localiser le fichier de configuration de PHP (php.ini)";
+"mi_phpmon_config" = "Localiser le dossier de PHP Monitor (.config/phpmon)";
+"mi_global_composer" = "Localiser le fichier Composer global (.composer).";
+"mi_phpinfo" = "Afficher la configuration actuelle (phpinfo).";
+"mi_update_global_composer" = "Mettre à jour les dépendances globales de Composer...";
+"mi_detected_extensions" = "Extensions détectées";
+"mi_no_extensions_detected" = "Aucune extension supplémentaire détectée.";
 
 "mi_php_doctor" = "PHP Doctor";
-"mi_fa_php_doctor" = "Open PHP Doctor...";
-"mi_recommendations_count" = "%i Issue(s) Detected!";
-"mi_view_recommendations" = "View Recommendations...";
+"mi_fa_php_doctor" = "Ouvrir PHP Doctor...";
+"mi_recommendations_count" = "%i problèmes(s) détecté(s)!";
+"mi_view_recommendations" = "Afficher les recommandations...";
 
 "mi_valet" = "Laravel Valet";
-"mi_domain_list" = "View Domains List...";
+"mi_domain_list" = "Afficher la liste des domaines...";
 
-"mi_preferences" = "Preferences...";
-"mi_donate" = "Donate...";
-"mi_check_for_updates" = "Check for Updates...";
-"mi_lite_mode" = "About Standalone Mode...";
-"mi_quit" = "Quit PHP Monitor";
-"mi_about" = "About PHP Monitor";
+"mi_preferences" = "Préférences...";
+"mi_donate" = "Faire un don...";
+"mi_check_for_updates" = "Vérifier les mises à jour...";
+"mi_lite_mode" = "À propos du mode Standalone...";
+"mi_quit" = "Quitter PHP Monitor";
+"mi_about" = "À propos de PHP Monitor";
 
-"mi_presets_title" = "Configuration Presets";
-"mi_apply_presets_title" = "Apply Configuration Presets";
-"mi_revert_to_prev_config" = "Revert to Previous Configuration...";
-"mi_profiles_loaded" = "%i profiles loaded from configuration file";
+"mi_presets_title" = "Préréglages de configuration";
+"mi_apply_presets_title" = "Appliquer les préréglages de configuration";
+"mi_revert_to_prev_config" = "Revenir à la configuration précédente...";
+"mi_profiles_loaded" = "%i profils chargés à partir du fichier de configuration";
 
-"mi_no_presets" = "No presets available.";
-"mi_set_up_presets" = "Learn more about presets...";
+"mi_no_presets" = "Aucun préréglage disponible.";
+"mi_set_up_presets" = "En savoir plus sur les préréglages...";
 
-"mi_view_onboarding" = "Open Welcome Tour...";
+"mi_view_onboarding" = "Ouvrir la visite guidée de bienvenue...";
 
-"mi_xdebug_available_modes" = "Available Modes";
+"mi_xdebug_available_modes" = "Modes disponibles";
 "mi_xdebug_actions" = "Actions";
-"mi_xdebug_disable_all" = "Disable All Modes";
+"mi_xdebug_disable_all" = "Désactiver tous les modes";
 
 // CONFMAN
 
-"confman.title" = "PHP Configuration Editor";
-"confman.description" = "This feature lets you customize your PHP installation's configuration with ease.\nPlease note that any changes you make are immediately and automatically applied.";
-"confman.byte_limit.unlimited" = "Allow unlimited usage";
+"confman.title" = "Éditeur de configuration PHP";
+"confman.description" = "Cette fonction vous permet de personnaliser facilement votre installation PHP. Les modifications sont appliquées automatiquement.";
+"confman.byte_limit.unlimited" = "Autoriser l'utilisation sans limite";
 
-"php_ini.memory_limit.title" = "Memory Limit";
-"php_ini.memory_limit.description" = "This sets the maximum amount of memory in bytes that a script is allowed to allocate. This helps prevent poorly written scripts for eating up all available memory on a server.";
-"php_ini.post_max_size.title" = "POST Max Size";
-"php_ini.post_max_size.description" = "Sets max size of post data allowed. This setting also affects file upload. To upload large files, this value must be larger than Upload Max Size. Generally speaking, Memory Limit should be larger than POST Max Size.";
-"php_ini.file_uploads.title" = "File Uploads";
-"php_ini.file_uploads.description" = "Enable or disable file uploads entirely. It is recommended to keep this on.";
-"php_ini.upload_max_filesize.title" = "Upload Max Size";
-"php_ini.upload_max_filesize.description" = "The maximum size of an uploaded file. POST Max Size must be larger than this value.";
+"php_ini.memory_limit.title" = "Limite de mémoire";
+"php_ini.memory_limit.description" = "Ce paramètre définit la quantité maximale de mémoire (en octets) qu'un script est autorisé à allouer. Cela permet d'éviter que des scripts mal écrits ne consomment toute la mémoire disponible sur un serveur.";
+"php_ini.post_max_size.title" = "POST Taille maximale";
+"php_ini.post_max_size.description" = "Définit la taille maximale des message POST autorisées. Ce paramètre affecte également le téléchargement montant de fichiers. Pour envoyer des fichiers volumineux, cette valeur doit être supérieure à la taille maximale de téléchargement montant. D'une manière générale, la limite de mémoire doit être supérieure à la taille maximale des messages POST.";
+"php_ini.file_uploads.title" = "Téléchargement montant de fichiers";
+"php_ini.file_uploads.description" = "Activer ou désactiver complètement les téléchargements montant de fichiers. Il est recommandé de laisser cette option activée.";
+"php_ini.upload_max_filesize.title" = "Taille maximale de téléchargement montant";
+"php_ini.upload_max_filesize.description" = "Taille maximale d'un téléchargement montant. La taille maximale POST doit être supérieure à cette valeur.";
 
 // PHPMAN
 
-"phpman.busy.title" = "Checking for updates!";
-"phpman.busy.description.outdated" = "Checking if any PHP version is outdated...";
+"phpman.busy.title" = "Vérification des mises à jour en cours !";
+"phpman.busy.description.outdated" = "Vérification des versions PHP obsolètes en cours...";
 
-"phpman.version.broken" = "This version appears to be broken, you can attempt repair.";
-"phpman.version.has_update" = "Version %@ installed, %@ available.";
-"phpman.version.installed" = "Version %@ is currently installed.";
-"phpman.version.available_for_installation" = "This version can be installed.";
-"phpman.buttons.uninstall" = "Uninstall";
-"phpman.buttons.install" = "Install";
-"phpman.buttons.update" = "Update";
-"phpman.buttons.repair" = "Repair";
-"phpman.version.prerelease" = "Pre-release";
+"phpman.version.broken" = "Cette version semble être endommagée. Vous pouvez tenter de la réparer.";
+"phpman.version.has_update" = "Version %@ installée, %@ disponible.";
+"phpman.version.installed" = "La version %@ est actuellement installée.";
+"phpman.version.available_for_installation" = "Cette version peut être installée.";
+"phpman.buttons.uninstall" = "Désinstaller";
+"phpman.buttons.install" = "Installer";
+"phpman.buttons.update" = "Mettre à jour";
+"phpman.buttons.repair" = "Réparer";
+"phpman.version.prerelease" = "Pré-version";
 
-"phpman.title" = "PHP Version Manager";
-"phpman.description" = "**PHP Version Manager** lets you install, upgrade and delete different PHP versions via Homebrew without needing to run the commands in the terminal yourself.";
-"phpman.disclaimer" = "Please note that installing or upgrading PHP versions may cause other Homebrew packages to be upgraded as well. Most installation steps usually take some time, so please be patient while Homebrew does its job.";
-"phpman.refresh.button" = "Search for Updates";
-"phpman.refresh.button.description" = "You can press the refresh button to check if any updates are available to installed PHP versions.";
+"phpman.title" = "Gestionnaire de versions PHP";
+"phpman.description" = "Le **gestionnaire de versions PHP** vous permet d'installer, de mettre à niveau et de supprimer différentes versions de PHP via Homebrew sans avoir à exécuter les commandes vous-même dans le terminal.";
+"phpman.disclaimer" = "Veuillez noter que l'installation ou la mise à niveau des versions de PHP peut entraîner la mise à niveau d'autres packages Homebrew. La plupart des étapes d'installation prennent généralement un certain temps, donc veuillez patienter pendant que Homebrew fait son travail.";
+"phpman.refresh.button" = "Rechercher des mises à jour";
+"phpman.refresh.button.description" = "Vous pouvez appuyer sur le bouton de rafraîchissement pour vérifier si des mises à jour sont disponibles pour les versions de PHP installées.";
 
-"phpman.has_updates.description" = "One or more updates are available. (Please note that PHP Monitor will always install or update PHP versions in bulk, so you will always upgrade all installations at once.)";
-"phpman.has_updates.button" = "Upgrade All";
+"phpman.has_updates.description" = "Une ou plusieurs mises à jour sont disponibles. (Veuillez noter que PHP Monitor installera ou mettra toujours à jour les versions de PHP en bloc, vous mettrez donc à jour toutes les installations en une seule fois.)";
+"phpman.has_updates.button" = "Tout mettre à jour";
 
-"phpman.warnings.unsupported.title" = "Your version of Homebrew may cause issues";
-"phpman.warnings.unsupported.desc" = "No functionality is disabled, but some commands may not work as expected. You are currently running Homebrew %@.
+"phpman.warnings.unsupported.title" = "Votre version de Homebrew peut causer des problèmes";
+"phpman.warnings.unsupported.desc" = "Aucune fonctionnalité n'est désactivée, mais certaines commandes peuvent ne pas fonctionner comme prévu. Vous utilisez actuellement Homebrew %@.
 
-Currently, Homebrew 4 is the only supported version for the PHP Version Manager. If you are running a newer version of Homebrew, you may wish to check if a newer version of PHP Monitor is available.";
+Actuellement, Homebrew 4 est la seule version prise en charge par le gestionnaire de versions PHP. Si vous utilisez une version plus récente de Homebrew, vous pouvez vérifier si une version plus récente de PHP Monitor est disponible.";
 
-"phpman.warnings.removal.title" = "Are you sure you want to uninstall %@?";
-"phpman.warnings.removal.desc" = "Please note that configuration files will not be removed, so it should be easy to reinstall later if needed.
+"phpman.warnings.removal.title" = "Êtes-vous sûr de vouloir désinstaller %@ ?";
+"phpman.warnings.removal.desc" = "Veuillez noter que les fichiers de configuration ne seront pas supprimés, il sera donc facile de réinstaller ultérieurement si nécessaire.
 
-You may be asked for your password during the uninstallation process if file permissions don't allow a simple removal.";
-"phpman.warnings.removal.button" = "Uninstall";
+Il se peut que vous deviez saisir votre mot de passe pendant le processus de désinstallation si les autorisations des fichiers ne permettent pas une suppression simple.";
+"phpman.warnings.removal.button" = "Désinstaller";
 
-"phpman.failures.install.title" = "Installation failed!";
-"phpman.failures.install.desc" = "Unfortunately, the operation returned an error code for some reason. You may find that the formulae have been correctly installed or upgraded. Unfortunately, I can't do much about this. Please check out the last few messages from Homebrew here for more information on what happened:
+"phpman.failures.install.title" = "L'installation a échoué !";
+"phpman.failures.install.desc" = "Malheureusement, l'opération a renvoyé un code d'erreur pour une raison inconnue. Il se peut que les formules aient été correctement installées ou mises à niveau. Malheureusement, je ne peux pas faire grand-chose à ce sujet. Veuillez consulter les derniers messages de Homebrew ici pour plus d'informations sur ce qui s'est passé :
 
 %@";
 
-"phpman.action_prevented_busy.title" = "PHP Monitor is currently busy.";
-"phpman.action_prevented_busy.desc" = "PHP Monitor is currently doing something like switching between PHP versions. To ensure your system does not break, you will need to wait until PHP Monitor is ready in order before you try this again.";
+"phpman.action_prevented_busy.title" = "PHP Monitor est actuellement occupé.";
+"phpman.action_prevented_busy.desc" = "PHP Monitor est actuellement occupé à effectuer une opération telle que le changement de versions de PHP. Pour garantir que votre système ne se casse pas, vous devez attendre que PHP Monitor soit prêt avant de réessayer.";
 
-"phpman.uninstall_prevented.title" = "You cannot uninstall the currently active version of PHP via PHP Monitor.";
-"phpman.uninstall_prevented.desc" = "In order to prevent issues with PHP Monitor and further crashes, it isn't possible to uninstall the currently linked version of PHP via this UI. You can switch versions and try again, or uninstall this version manually via the terminal.\n\nPlease note that PHP Monitor may crash if you uninstall the currently linked PHP version.";
+"phpman.uninstall_prevented.title" = "Vous ne pouvez pas désinstaller la version de PHP actuellement active via PHP Monitor.";
+"phpman.uninstall_prevented.desc" = "Afin de prévenir les problèmes avec PHP Monitor et d'autres plantages, il n'est pas possible de désinstaller la version actuellement liée de PHP via cette interface utilisateur. Vous pouvez changer de version et réessayer, ou désinstaller cette version manuellement via le terminal.\n\nVeuillez noter que PHP Monitor peut planter si vous désinstallez la version de PHP actuellement liée.";
 
-"phpman.failures.uninstall.title" = "Uninstall failed!";
-"phpman.failures.uninstall.desc" = "Unfortunately, the automatic uninstallation failed. You can manually try to run this command: `%@` and find out what goes wrong. Remember to restart PHP Monitor (or press the refresh button) when this is done.";
+"phpman.failures.uninstall.title" = "La désinstallation a échoué !";
+"phpman.failures.uninstall.desc" = "Malheureusement, la désinstallation automatique a échoué. Vous pouvez essayer de lancer manuellement cette commande : `%@` et découvrir ce qui ne fonctionne pas. N'oubliez pas de redémarrer PHP Monitor (ou d'appuyer sur le bouton de rafraîchissement) une fois terminé.";
 
-"phpman.unlinked.title" = "None of the versions of PHP installed on your system are currently linked.";
-"phpman.unlinked.desc" = "You likely still have some version of PHP that is currently installed, but currently no version of PHP is linked.";
-"phpman.unlinked.detail" = "Without any PHP version linked, the `php` binary is not accessible on your system and you cannot run any PHP scripts without explicitly being part of the PATH. You can have PHP Monitor automatically resolve this problem (choose Fix Automatically in the main menu), or fix it yourself by running `brew link php --force`.";
+"phpman.unlinked.title" = "Aucune des versions de PHP installées sur votre système n'est actuellement liée.";
+"phpman.unlinked.desc" = "Il est probable que vous ayez toujours une version de PHP installée, mais actuellement aucune version de PHP n'est liée.";
+"phpman.unlinked.detail" = "Sans aucune version de PHP liée, le binaire php n'est pas accessible sur votre système et vous ne pouvez pas exécuter de scripts PHP sans être explicitement inclus dans le PATH. PHP Monitor peut résoudre automatiquement ce problème (choisissez Réparer automatiquement dans le menu principal) ou vous pouvez le résoudre vous-même en exécutant la commande `brew link php --force`.";
 
-"phpman.operations.repairing" = "Repairing installations...";
-"phpman.operations.updating" = "Installing updates...";
-"phpman.operations.installing" = "Installing %@...";
+"phpman.operations.repairing" = "Réparation des installations en cours...";
+"phpman.operations.updating" = "Installation des mises à jour en cours...";
+"phpman.operations.installing" = "Installation de %@ en cours...";
 
-"phpman.steps.fetching" = "Fetching...";
-"phpman.steps.downloading" = "Downloading package data...";
-"phpman.steps.installing" = "Installing some package data...";
-"phpman.steps.pouring" = "Pouring... This can take a while...";
-"phpman.steps.summary" = "Some package has finished installing...";
+"phpman.steps.fetching" = "Récupération en cours...";
+"phpman.steps.downloading" = "Téléchargement des données du package en cours...";
+"phpman.steps.installing" = "Installation de certaines données du package en cours...";
+"phpman.steps.pouring" = "Versement en cours... Cela peut prendre un certain temps...";
+"phpman.steps.summary" = "L'installation d'un package est terminée...";
 
-"phpman.services.loading" = "Loading...";
-"phpman.services.not_installed" = "A key service is not installed.";
-"phpman.services.error" = "A key service is reporting an error state.";
-"phpman.services.inactive" = "A key service is not running.";
-"phpman.services.all_ok" = "All Valet services are OK.";
+"phpman.services.loading" = "Chargement...";
+"phpman.services.not_installed" = "Un service nécessaire n'est pas installé.";
+"phpman.services.error" = "Un service nécessaire rapporte une érreur.";
+"phpman.services.inactive" = "Un service nécessaire n'est pas lancé.";
+"phpman.services.all_ok" = "Tout les services Valet sont OK.";
 
 // LITE MODE
 
-"lite_mode_explanation.title" = "You are currently running PHP Monitor in Standalone Mode.";
-"lite_mode_explanation.subtitle" = "PHP Monitor has additional features that are available for use if you happen to be a user of Laravel Valet. Right now, PHP Monitor could not detect an active installation of Valet on your system, so those features are unavailable.";
-"lite_mode_explanation.description" = "For more information, I'd recommend checking out the README (accessible on GitHub) which will explain what steps you need to take to install Valet and make PHP Monitor run correctly with it installed. You will need to restart PHP Monitor after installing Laravel Valet before it will leave Standalone Mode.";
+"lite_mode_explanation.title" = "Vous utilisez actuellement PHP Monitor en mode Standalone.";
+"lite_mode_explanation.subtitle" = "PHP Monitor dispose de fonctionnalités supplémentaires qui sont disponibles si vous utilisez Laravel Valet. Actuellement, PHP Monitor n'a pas détecté d'installation active de Valet sur votre système, ces fonctionnalités ne sont donc pas disponibles.";
+"lite_mode_explanation.description" = "Pour plus d'informations, je vous recommande de consulter le README (accessible sur GitHub) qui expliquera les étapes à suivre pour installer Valet et faire fonctionner correctement PHP Monitor avec cette installation. Vous devrez redémarrer PHP Monitor après avoir installé Laravel Valet avant de quitter le mode Standalone.";
 
 // GENERIC
 
 "generic.ok" = "OK";
-"generic.cancel" = "Cancel";
-"generic.retry" = "Retry";
+"generic.cancel" = "Annuler";
+"generic.retry" = "Réessayer";
 "generic.notice" = "Notice";
 
 // PRESET LOADING
 
-"preset_help_title" = "Working with Configuration Presets";
-"preset_help_info" = "You can set up configuration presets in the config.json file, located in ~/.config/phpmon/config.json. These presets can apply a selection of configuration values all at once. This is a powerful feature, but currently needs to be set up manually.";
-"preset_help_desc" = "After restarting PHP Monitor, all presets found in the file will be loaded. If no presets appear, the file probably could not be parsed correctly.\n\nYou can click the question mark in this alert to go to the FAQ on GitHub, where you can find more information about this feature, including a sample file.";
+"preset_help_title" = "Utilisation des préréglages de configuration";
+"preset_help_info" = "Vous pouvez configurer des préréglages de configuration dans le fichier config.json, situé dans ~/.config/phpmon/config.json. Ces préréglages peuvent appliquer une sélection de valeurs de configuration en une seule fois. Il s'agit d'une fonctionnalité puissante, mais qui doit actuellement être configurée manuellement.";
+"preset_help_desc" = "Après avoir redémarré PHP Monitor, tous les préréglages présents dans le fichier seront chargés. Si aucun préréglage n'apparaît, il est probable que le fichier n'ait pas pu être analysé correctement.\n\nVous pouvez cliquer sur le point d'interrogation dans cette alerte pour accéder à la FAQ sur GitHub, où vous trouverez plus d'informations sur cette fonctionnalité, y compris un exemple de fichier.";
 
 // MENU ITEMS (if window is open)
 
-"mm_add_folder_as_link" = "Add Folder as Link...";
-"mm_reload_domain_list" = "Reload Domains List";
-"mm_find_in_domain_list" = "Search in Domains List";
+"mm_add_folder_as_link" = "Ajouter un dossier en tant que lien...";
+"mm_reload_domain_list" = "Recharger la liste des domaines";
+"mm_find_in_domain_list" = "Rechercher dans la liste des domaines";
 
 // SITE LIST
 
-"domain_list.title" = "Domains";
+"domain_list.title" = "Domaines";
 "domain_list.subtitle" = "";
 
-"domain_list.no_domains" = "You have not set up any domains or proxies yet.";
-"domain_list.no_domains_for_search_query" = "There are no results for your search query.";
+"domain_list.no_domains" = "Vous n'avez pas encore configuré de domaines ou de proxies.";
+"domain_list.no_domains_for_search_query" = "Votre recherche ne retourne aucun résultat.";
 
-"domain_list.tooltips.isolated" = "This domain is isolated and using PHP %@ instead of the globally linked PHP.";
-"domain_list.tooltips.checkmark" = "This domain is being served with a version of PHP that is compatible with this requirement (PHP %@). Click on the PHP version next to this checkmark to find out more information about how this requirement was determined.";
+"domain_list.tooltips.isolated" = "Ce domaine est isolé et utilise PHP %@ au lieu de la version de PHP liée globalement.";
+"domain_list.tooltips.checkmark" = "Ce domaine est servi avec une version de PHP compatible avec cette exigence (PHP %@). Cliquez sur la version de PHP à côté de cette coche pour obtenir plus d'informations sur la manière dont cette exigence a été déterminée.";
 
-"domain_list.alerts_isolation_failed.title" = "Oops! Site Isolation Not Applied";
-"domain_list.alerts_isolation_failed.subtitle" = "Something went wrong trying to change the isolation status for this site. If this is your default site but it is not linked, I recommend manually linking the site prior to setting up isolation.";
-"domain_list.alerts_isolation_failed.desc" = "To find out what goes wrong, you can try running the command in your terminal manually: %@";
+"domain_list.alerts_isolation_failed.title" = "Oups ! L'isolation du site n'a pas été appliquée.";
+"domain_list.alerts_isolation_failed.subtitle" = "Quelque chose s'est mal passé lors de la tentative de modification du statut d'isolation pour ce site. Si c'est votre site par défaut mais qu'il n'est pas lié, je vous recommande de le lier manuellement avant de configurer l'isolation.";
+"domain_list.alerts_isolation_failed.desc" = "Pour déterminer ce qui ne fonctionne pas, vous pouvez essayer d'exécuter la commande manuellement dans votre terminal : %@";
 
-"domain_list.alerts_status_not_changed.title" = "Oops! SSL Status Not Changed";
-"domain_list.alerts_status_not_changed.desc" = "Something went wrong. Try running the command in your terminal manually: %@";
+"domain_list.alerts_status_not_changed.title" = "Oups ! Le statut SSL n'a pas été modifié.";
+"domain_list.alerts_status_not_changed.desc" = "Quelque chose s'est mal passé. Essayez d'exécuter la commande manuellement dans votre terminal : %@";
 
-"domain_list.alerts_status_changed.title" = "SSL Status Changed";
-"domain_list.alerts_status_changed.desc" = "The domain '%@' is now %@.";
-"domain_list.alerts_status_secure" = "secure";
-"domain_list.alerts_status_unsecure" = "unsecured";
+"domain_list.alerts_status_changed.title" = "Statut SSL modifié";
+"domain_list.alerts_status_changed.desc" = "Le domaine '%@' est maintenant %@.";
+"domain_list.alerts_status_secure" = "sécurisé";
+"domain_list.alerts_status_unsecure" = "non sécurisé";
 
-"domain_list.confirm_unlink" = "Are you sure you want to unlink '%@'?";
-"domain_list.confirm_unlink_desc" = "No files will be removed. You can always link the folder again by clicking on the + button and selecting the original folder.";
-"site_link.close" = "Close";
-"site_link.switch_to_php" = "Switch to PHP %@";
+"domain_list.confirm_unlink" = "Êtes-vous sûr de vouloir dissocier '%@' ?";
+"domain_list.confirm_unlink_desc" = "Aucun fichier ne sera supprimé. Vous pouvez toujours lier à nouveau le dossier en cliquant sur le bouton + et en sélectionnant le dossier d'origine.";
+"site_link.close" = "Fermer";
+"site_link.switch_to_php" = "Basculer vers PHP %@";
 
-"domain_list.confirm_unproxy" = "Are you sure you want to remove the proxy '%@'?";
-"domain_list.confirm_unproxy_desc" = "You can always recreate proxy the again by clicking on the + button.";
+"domain_list.confirm_unproxy" = "Êtes-vous sûr de vouloir supprimer le proxy '%@' ?";
+"domain_list.confirm_unproxy_desc" = "Vous pouvez toujours recréer le proxy en cliquant à nouveau sur le bouton +.";
 
 "domain_list.columns.secure" = "TLS";
-"domain_list.columns.domain" = "Domain";
-"domain_list.columns.active" = "Active";
-"domain_list.columns.kind" = "Kind";
-"domain_list.columns.project_type" = "Project Type";
+"domain_list.columns.domain" = "Domaine";
+"domain_list.columns.active" = "Actif";
+"domain_list.columns.kind" = "Sorte";
+"domain_list.columns.project_type" = "Type de Projet";
 
 // CHOOSE WHAT TO ADD
 
-"selection.title" = "What kind of domain would you like to set up?";
-"selection.description" = "Links are used to directly serve projects. If you have a Laravel, Symfony, WordPress, etc. folder with code, you'll want to create a link and choose the folder where your code lives.\n\nIf you are in need of a proxy, you can proxy e.g. a container to a particular domain name. This can be useful in combination with Docker, for example.";
-"selection.create_link" = "Create a Link";
-"selection.create_proxy" = "Create a Proxy";
-"selection.cancel" = "Cancel";
+"selection.title" = "Quel type de domaine souhaitez-vous configurer ?";
+"selection.description" = "Les liens sont utilisés pour servir directement les projets. Si vous avez un dossier Laravel, Symfony, WordPress, etc. contenant du code, vous voudrez créer un lien et choisir le dossier où se trouve votre code.\n\nSi vous avez besoin d'un proxy, vous pouvez proxyer par exemple un conteneur vers un nom de domaine particulier. Cela peut être utile en combinaison avec Docker, par exemple.";
+"selection.create_link" = "Créer un lien";
+"selection.create_proxy" = "Créer un Proxy";
+"selection.cancel" = "Annuler";
 
 // ADD PROXY TO DOMAINS LIST
 
-"domain_list.add.set_up_proxy" = "Set up a Proxy";
-"domain_list.add.proxy_subject" = "Proxy subject (must include protocol and port)";
-"domain_list.add.domain_name" = "Domain name";
-"domain_list.add.create_proxy" = "Create Proxy";
-"domain_list.add.proxy_available" = "%@ will be proxied and will be available via: %@://%@.%@";
-"domain_list.add.proxy_https_warning" = "%@ will be proxied and will be available via: %@://%@.%@.
+"domain_list.add.set_up_proxy" = "Configurer un Proxy";
+"domain_list.add.proxy_subject" = "Sujet du proxy (doit inclure le protocole et le port)";
+"domain_list.add.domain_name" = "Nom de domaine";
+"domain_list.add.create_proxy" = "Créer le Proxy";
+"domain_list.add.proxy_available" = "%@ sera proxy et sera disponible via : %@://%@.%@";
+"domain_list.add.proxy_https_warning" = "%@ sera proxy et sera disponible via : %@://%@.%@.
 
-(!) IMPORTANT: This proxy may not work until you manually add `proxy_ssl_verify off;` to the nginx configuration file for this domain. It is recommended that you use an unsecured domain as the proxy subject.";
+( !) IMPORTANT : Ce proxy peut ne pas fonctionner jusqu'à ce que vous ajoutiez manuellement `proxy_ssl_verify off;` au fichier de configuration de nginx pour ce domaine. Il est recommandé d'utiliser un domaine non sécurisé comme sujet du proxy.";
 
 // ADD SITE TO DOMAINS LIST
 
-"domain_list.add.link_folder" = "Link a Folder";
-"domain_list.add.domain_name_placeholder" = "Enter a domain name here";
-"domain_list.add.secure_after_creation" = "Secure %@.%@ after creation";
-"domain_list.add.secure_description" = "Securing a domain requires administrative privileges.\nYou may be prompted for your password or Touch ID.";
-"domain_list.add.create_link" = "Create Link";
-"domain_list.add.cancel" = "Cancel";
-"domain_list.add.folder_available" = "This site will be available via the following URL: %@://%@.%@";
+"domain_list.add.link_folder" = "Lier un dossier";
+"domain_list.add.domain_name_placeholder" = "Entrez un nom de domaine ici";
+"domain_list.add.secure_after_creation" = "Sécuriser %@.%@ après la création";
+"domain_list.add.secure_description" = "La sécurisation d'un domaine nécessite des privilèges administrateurs.\nIl se peut que l'on vous demande votre mot de passe ou votre Touch ID.";
+"domain_list.add.create_link" = "Créer Lien";
+"domain_list.add.cancel" = "Annuler";
+"domain_list.add.folder_available" = "Ce site sera accessible via l'URL suivante : %@://%@.%@";
 
-"domain_list.add.empty_fields" = "One or more fields are empty. Please fill all required fields.";
-"domain_list.add.errors.empty" = "You must enter a domain name.";
-"domain_list.add.errors.empty_proxy" = "You must enter what will be proxied.";
-"domain_list.add.errors.subject_invalid" = "The subject you've entered is not valid.\nYou must include the protocol and port.";
-"domain_list.add.errors.already_exists" = "A link with that name already exists.";
+"domain_list.add.empty_fields" = "Un ou plusieurs champs sont vides. Veuillez remplir tous les champs obligatoires.";
+"domain_list.add.errors.empty" = "Vous devez saisir un nom de domaine.";
+"domain_list.add.errors.empty_proxy" = "Vous devez indiquer ce qui sera proxy.";
+"domain_list.add.errors.subject_invalid" = "Le sujet que vous avez saisi n'est pas valide.\nVous devez inclure le protocole et le port.";
+"domain_list.add.errors.already_exists" = "Un lien portant ce nom existe déjà.";
 
 // ADD SITE ERROR: FOLDER MISSING SINCE SELECTION
 
-"domain_list.alert.folder_missing.desc" = "The folder you chose no longer seems to exist. Do you want to cancel adding this folder? If you moved the folder, you could always put it back and try again.";
-"domain_list.alert.folder_missing.title" = "Folder missing!";
-"domain_list.alert.folder_missing.cancel" = "Cancel Link";
+"domain_list.alert.folder_missing.desc" = "Le dossier que vous avez choisi ne semble plus exister. Voulez-vous annuler l'ajout de ce dossier ? Si vous avez déplacé le dossier, vous pouvez toujours le remettre en place et réessayer.";
+"domain_list.alert.folder_missing.title" = "Dossier manquant !";
+"domain_list.alert.folder_missing.cancel" = "Annuler le Lien";
 "domain_list.alert.folder_missing.return" = "OK";
 
-"domain_list.add.modal_description" = "First, select which folder you would like to link.";
+"domain_list.add.modal_description" = "Sélectionnez d'abord le dossier que vous souhaitez lier.";
 
 // SITE LIST ACTIONS
 
-"domain_list.isolate" = "Switch PHP Version";
-"domain_list.site_isolation" = "Site Isolation";
-"domain_list.remove_isolation" = "Remove Isolation";
-"domain_list.always_use_php" = "Always use PHP %@";
-"domain_list.isolation_unavailable" = "Isolation Not Supported (in Valet 2)";
+"domain_list.isolate" = "Changer la Version de PHP";
+"domain_list.site_isolation" = "Isolation du site";
+"domain_list.remove_isolation" = "Supprimer l'isolation";
+"domain_list.always_use_php" = "Tojours utiliser PHP %@";
+"domain_list.isolation_unavailable" = "Isolement non pris en charge (dans Valet 2)";
 
 "domain_list.actions" = "Actions";
-"domain_list.unlink" = "Unlink Directory";
-"domain_list.secure" = "Secure Domain";
-"domain_list.unsecure" = "Unsecure Domain";
-"domain_list.open_in" = "Open with %@";
-"domain_list.open_in_finder" = "Open in Finder";
-"domain_list.open_in_browser" = "Open in Browser";
-"domain_list.open_in_terminal" = "Open in Terminal";
-"domain_list.detected_apps" = "Detected Applications";
-"domain_list.system_apps" = "System Applications";
-"domain_list.unproxy" = "Remove Proxy";
-"domain_list.use_in_terminal" = "Open PHP %@ in Terminal";
+"domain_list.unlink" = "Supprimer le Lien vers le Dossier";
+"domain_list.secure" = "Sécuriser le Domaine";
+"domain_list.unsecure" = "Supprimer la Sécurisation du Domaine";
+"domain_list.open_in" = "Ouvrir avec %@";
+"domain_list.open_in_finder" = "Ouvrir dans le Finder";
+"domain_list.open_in_browser" = "Ouvrir dans le Navigateur";
+"domain_list.open_in_terminal" = "Ouvrir dans le Terminal";
+"domain_list.detected_apps" = "Applications Détectées";
+"domain_list.system_apps" = "Applications Système";
+"domain_list.unproxy" = "Supprimer le Proxy";
+"domain_list.use_in_terminal" = "Ouvrir PHP %@ dans le Terminal";
 
-"domain_list.alerts_isolated_php_terminal.title" = "You can use PHP %@ in a specific terminal!";
-"domain_list.alerts_isolated_php_terminal.subtitle" = "Sadly, PHP Monitor cannot open a terminal for you (and type in the appropriate commands). You'll have to manually source the helper script in order to use this specific version of PHP. To do this, you can type the following in a terminal of choice:
+"domain_list.alerts_isolated_php_terminal.title" = "Vous pouvez utiliser PHP %@ dans un terminal spécifique!";
+"domain_list.alerts_isolated_php_terminal.subtitle" = "Malheureusement, PHP Monitor ne peut pas ouvrir un terminal pour vous (et taper les commandes appropriées). Vous devrez donc manuellement créer le script d'aide afin d'utiliser cette version spécifique de PHP. Pour ce faire, vous pouvez taper ce qui suit dans le terminal de votre choix :
 
 . pm%@
 
-This will source the helper script as generated by PHP Monitor and enable the use of PHP %@ for that specific terminal.
+Ceci va générer le script d'aide tel qu'il est généré par PHP Monitor et permettre l'utilisation de PHP %@ pour ce terminal spécifique.
 
-This has no effect on other terminals, only for the particular terminal session that you are using it on. (i.e. if you have multiple tabs in your terminal app, other tabs & windows are unaffected.)";
-"domain_list.alerts_isolated_php_terminal.desc" = "If this doesn't work, you may wish to check PHP Doctor via the First Aid menu here in PHP Monitor. More information about this feature can also be found on GitHub (on the wiki on PHP Monitor's repository). This alert is included to improve visibility of this feature.";
+Cela n'a pas d'effet sur les autres terminaux, mais uniquement sur la session de terminal particulière sur laquelle vous l'utilisez. (par exemple, si vous avez plusieurs onglets dans votre application de terminal, les autres onglets et fenêtres ne sont pas affectés).";
+"domain_list.alerts_isolated_php_terminal.desc" = "Si cela ne fonctionne pas, vous pouvez vérifier PHP Doctor via le menu Dépannage ici dans PHP Monitor. Plus d'informations sur cette fonctionnalité peuvent être trouvées sur GitHub (sur le wiki du dépôt de PHP Monitor). Cette alerte est incluse pour améliorer la visibilité de cette fonctionnalité.";
 
 
-"domain_list.warning.spaces" = "Warning! This site has a space in its folder.\nThe site will not be reachable via the browser.";
+"domain_list.warning.spaces" = "Attention ! Ce site a un espace dans son dossier.\nLe site ne sera pas accessible via le navigateur.";
 
-"domain_list.alert.invalid_folder_name" = "Invalid folder name";
-"domain_list.alert.invalid_folder_name_desc" = "This folder could not be resolved to a valid URL. This is usually because there’s a space in the folder name. Please rename the folder, reload the list of sites, and try again.";
+"domain_list.alert.invalid_folder_name" = "Nom de dossier non valide";
+"domain_list.alert.invalid_folder_name_desc" = "Ce dossier n'a pas pu être résolu en une URL valide. Cela est généralement dû à la présence d'un espace dans le nom du dossier. Veuillez renommer le dossier, recharger la liste des sites et réessayer.";
 
 "domain_list.columns.tls" = "TLS";
-"domain_list.columns.domain" = "Domain";
+"domain_list.columns.domain" = "Domaine";
 "domain_list.columns.php" = "PHP";
 "domain_list.columns.type" = "Type";
-"domain_list.columns.kind" = "Kind";
+"domain_list.columns.kind" = "Sorte";
 
 // DRIVERS
 
-"driver.not_detected" = "Other";
+"driver.not_detected" = "Autres";
 
 // PRESET
 
 "preset.extension" = "%i extension";
 "preset.extensions" = "%i extensions";
-"preset.preference" = "%i preference";
-"preset.preferences" = "%i preferences";
+"preset.preference" = "%i préférence";
+"preset.preferences" = "%i préférences";
 
 // EDITORS
 
-"editors.alert.try_again" = "Try Again";
-"editors.alert.cancel" = "Cancel";
+"editors.alert.try_again" = "Essayez à nouveau";
+"editors.alert.cancel" = "Annuler";
 
 // PREFERENCES
 
 "prefs.title" = "PHP Monitor";
-"prefs.subtitle" = "Preferences";
-"prefs.close" = "Close";
+"prefs.subtitle" = "Préférences";
+"prefs.close" = "Fermer";
 
-"prefs.tabs.general" = "General";
-"prefs.tabs.appearance" = "Appearance";
-"prefs.tabs.visibility" = "Visibility";
+"prefs.tabs.general" = "Général";
+"prefs.tabs.appearance" = "apparence";
+"prefs.tabs.visibility" = "Visibilité";
 "prefs.tabs.notifications" = "Notifications";
 
-"prefs.global_shortcut" = "Global Shortcut:";
-"prefs.dynamic_icon" = "Dynamic Icon:";
-"prefs.dynamic_icon" = "Icon Type:";
-"prefs.info_density" = "Info Density:";
-"prefs.services" = "Services:";
-"prefs.switcher" = "Switcher:";
+"prefs.global_shortcut" = "Raccourci Clavier Global :";
+"prefs.dynamic_icon" = "Icône Dynamique :";
+"prefs.dynamic_icon" = "Type d'Icône :";
+"prefs.info_density" = "Densité d'Informations :";
+"prefs.services" = "Services :";
+"prefs.switcher" = "Sélecteur :";
 "prefs.php_doctor" = "PHP Doctor:";
-"prefs.integrations" = "Integrations:";
-"prefs.updates" = "Updates:";
+"prefs.php_doctor" = "PHP Doctor:";
+"prefs.integrations" = "Intégrations:";
+"prefs.updates" = "Mises-à-jour:";
 "prefs.notifications" = "Notifications:";
-"prefs.warnings" = "Warnings:";
-"prefs.menu_contents" = "Features in Menu:";
-"prefs.startup" = "Startup:";
+"prefs.warnings" = "Avertissements:";
+"prefs.menu_contents" = "Fonctionnalités dans le menu:";
+"prefs.startup" = "Démarrage:";
 
-"prefs.auto_start_desc" = "Automatically starts PHP Monitor when you log into your Mac.";
-"prefs.auto_start_title" = "Start PHP Monitor at login";
+"prefs.auto_start_desc" = "Lancer automatiquement PHP Monitor lorsque vous vous connectez à votre Mac.";
+"prefs.auto_start_title" = "Démarrer PHP Monitor à la connexion";
 
-"prefs.icon_options.php" = "Display PHP Icon";
-"prefs.icon_options.elephant" = "Display Elephant Icon";
-"prefs.icon_options.none" = "Do Not Display Icon";
+"prefs.icon_options.php" = "Afficher l'icône PHP";
+"prefs.icon_options.elephant" = "Afficher l'icône Éléphant";
+"prefs.icon_options.none" = "Ne Pas Afficher d'icône";
 
-"prefs.icon_options_desc" = "This option decides which icon will be displayed next to the version number of the currently linked PHP version. If the Dynamic Icon option has been disabled, this will have no effect.";
+"prefs.icon_options_desc" = "Cette option détermine l'icône qui sera affichée à côté du numéro de version de la version de PHP actuellement liée. Si l'option Icône dynamique a été désactivée, cette option n'aura aucun effet.";
 
-"prefs.auto_restart_services_title" = "Auto-restart PHP-FPM";
-"prefs.auto_restart_services_desc" = "When checked, will automatically restart PHP-FPM when you check or uncheck an extension. Slightly slower when enabled, but this applies the extension change immediately for all sites you're serving, no need to restart PHP-FPM manually.";
+"prefs.auto_restart_services_title" = "Redémarrer PHP-FPM automatiquement";
+"prefs.auto_restart_services_desc" = "Lorsque cette option est cochée, PHP-FPM redémarre automatiquement lorsque vous cochez ou décochez une extension. Légèrement plus lent lorsqu'il est activé, mais il applique immédiatement le changement d'extension pour tous les sites que vous servez, sans avoir besoin de redémarrer PHP-FPM manuellement.";
 
-"prefs.dynamic_icon_title" = "Display dynamic icon in menu bar";
-"prefs.dynamic_icon_desc" = "If you uncheck this box, the truck icon will always be visible. If checked, it will display the major version number of the currently linked PHP version.";
+"prefs.dynamic_icon_title" = "Afficher une icône dynamique dans la barre de menu";
+"prefs.dynamic_icon_desc" = "Si vous décochez cette case, l'icône du camion sera toujours visible. Si elle est cochée, elle affichera le numéro de la version majeure de la version de PHP actuellement liée.";
 
-"prefs.display_full_php_version" = "Display full PHP version everywhere";
-"prefs.display_full_php_version_desc" = "Display the full version instead of the major version displayed in the menu bar and the dropdown menu. (This may be undesirable on smaller displays, so this is disabled by default.)";
+"prefs.display_full_php_version" = "Afficher la version complète de PHP partout";
+"prefs.display_full_php_version_desc" = "Afficher la version complète au lieu de la version majeure affichée dans la barre de menu et le menu déroulant. (Cela peut s'avérer indésirable sur les petits écrans, c'est pourquoi cette option est désactivée par défaut).";
 
-"prefs.auto_composer_update_title" = "Automatically update global dependencies";
-"prefs.auto_composer_update_desc" = "When checked, will automatically ask Composer to run `composer global update` whenever you switch between different PHP versions. You will be able to see what changes are being made, or should this fail.";
+"prefs.auto_composer_update_title" = "Mise à jour automatique des dépendances globales";
+"prefs.auto_composer_update_desc" = "Si cette option est cochée, elle demandera automatiquement à Composer d'exécuter `composer global update` à chaque fois que vous passerez d'une version de PHP à une autre. Vous serez en mesure de voir quels changements sont effectués, ou si cela échoue.";
 
-"prefs.open_protocol_title" = "Allow third-party integrations";
-"prefs.open_protocol_desc" = "When checked, this will allow the interaction with third party utilities to work (e.g. Alfred, Raycast). If you disable this, PHP Monitor will still receive the commands, but will not act upon them.";
+"prefs.open_protocol_title" = "Autoriser les intégrations tierces";
+"prefs.open_protocol_desc" = "Lorsque cette option est cochée, elle permet à l'interaction avec des utilitaires tiers de fonctionner (par exemple Alfred, Raycast). Si vous désactivez cette option, le PHP Monitor recevra toujours les commandes, mais n'agira pas en conséquence.";
 
-"prefs.automatic_update_check_title" = "Automatically check for updates";
-"prefs.automatic_update_check_desc" = "When checked, PHP Monitor will automatically check if there is a newer version available, and notify you if that is the case.";
+"prefs.automatic_update_check_title" = "Vérifier automatiquement les mises à jour";
+"prefs.automatic_update_check_desc" = "Lorsque cette option est cochée, PHP Monitor vérifie automatiquement si une version plus récente est disponible, et vous en informe si c'est le cas.";
 
-"prefs.php_doctor_suggestions_title" = "Always show suggestions";
-"prefs.php_doctor_suggestions_desc" = "If you uncheck this item, no PHP Doctor suggestions will appear in PHP Monitor's menu. Keep in mind that PHP Doctor will not appear if there are no recommendations.";
+"prefs.php_doctor_suggestions_title" = "Toujours afficher les suggestions";
+"prefs.php_doctor_suggestions_desc" = "Si vous décochez cette option, aucune suggestion de PHP Doctor n'apparaîtra dans le menu de PHP Monitor. Gardez à l'esprit que PHP Doctor n'apparaîtra pas s'il n'y a pas de recommandations.";
 
-"prefs.shortcut_set" = "Set global shortcut";
-"prefs.shortcut_listening" = "<listening for keypress>";
-"prefs.shortcut_clear" = "Clear";
-"prefs.shortcut_desc" = "If a shortcut combination is set up, you can toggle PHP Monitor wherever you are by pressing the key combination you chose. (Cancel choosing a shortcut by pressing the spacebar.)";
+"prefs.shortcut_set" = "Définir un raccourci global";
+"prefs.shortcut_listening" = "<écoute de l'appui sur le clavier>";
+"prefs.shortcut_clear" = "Éffacer";
+"prefs.shortcut_desc" = "Si une combinaison de raccourcis est configurée, vous pouvez basculer le moniteur PHP où que vous soyez en appuyant sur la combinaison de touches que vous avez choisie. (Annulez le choix d'un raccourci en appuyant sur la barre d'espacement).";
 
-"prefs.notify_about_version_change_desc" = "Displays a notification whenever the active PHP version changes.";
-"prefs.notify_about_version_change" = "Notify about PHP version switch";
+"prefs.notify_about_version_change_desc" = "Affiche une notification lorsque la version active de PHP change.";
+"prefs.notify_about_version_change" = "Notification du changement de version de PHP";
 
-"prefs.notify_about_php_fpm_change_desc" = "Displays a notification whenever the active PHP-FPM process has restarted due to a configuration change.";
-"prefs.notify_about_php_fpm_change" = "Notify about PHP-FPM restart";
+"prefs.notify_about_php_fpm_change_desc" = "Affiche une notification lorsque le processus PHP-FPM actif a redémarré suite à un changement de configuration.";
+"prefs.notify_about_php_fpm_change" = "Notifier le redémarrage de PHP-FPM";
 
-"prefs.notify_about_services_desc" = "Displays a notification whenever any of the Homebrew services (installed and configured by Valet) have been restarted or stopped.";
-"prefs.notify_about_services" = "Notify about services status";
+"prefs.notify_about_services_desc" = "Affiche une notification lorsque l'un des services Homebrew (installés et configurés par Valet) a été redémarré ou arrêté.";
+"prefs.notify_about_services" = "Notifier l'état des services";
 
-"prefs.notify_about_presets_desc" = "Displays a notification whenever a preset has been successfully applied or reverted.";
-"prefs.notify_about_presets" = "Notify about applied presets";
+"prefs.notify_about_presets_desc" = "Affiche une notification lorsqu'un préréglage a été appliqué ou annulé avec succès.";
+"prefs.notify_about_presets" = "Notification de l'application des préréglages";
 
-"prefs.notify_about_secure_status_desc" = "Displays a notification when a domain has been secured or unsecured.";
-"prefs.notify_about_secure_status" = "Notify about secure/unsecure status";
+"prefs.notify_about_secure_status_desc" = "Affiche une notification lorsqu'un domaine a été sécurisé ou non sécurisé" ;
+"prefs.notify_about_secure_status" = "Notification de l'état sécurisé/non sécurisé";
 
-"prefs.notify_about_composer_success_desc" = "Displays a notification when the global Composer configuration was successfully updated.";
-"prefs.notify_about_composer_success" = "Notify about global composer update";
+"prefs.notify_about_composer_success_desc" = "Affiche une notification lorsque la configuration globale de Composer a été mise à jour avec succès" ;
+"prefs.notify_about_composer_success" = "Notifier sur les mises à jour globales composer" ;
 
-"prefs.warn_about_non_standard_tld_desc" = "If you use a non-standard TLD, you may not wish to get repeated notifications about this.";
-"prefs.warn_about_non_standard_tld" = "Warn about non-standard TLD";
+"prefs.warn_about_non_standard_tld_desc" = "Si vous utilisez un TLD non standard, vous ne souhaiterez peut-être pas recevoir de notifications répétées à ce sujet" ;
+"prefs.warn_about_non_standard_tld" = "Avertir à propos d'un TLD non standard" ;
 
-"prefs.display_global_version_switcher_desc" = "If disabled, you will not be able to change the globally linked PHP version via the main menu.";
+"prefs.display_global_version_switcher_desc" = "Si cette option est désactivée, vous ne pourrez pas modifier la version de PHP liée globalement via le menu principal.";
 "prefs.display_global_version_switcher" = "PHP Switcher";
 
-"prefs.display_services_manager_desc" = "If disabled, you will not be able to see, start or stop individual services. (If any services are disabled, you will not be easily able to see that this is the case.)";
-"prefs.display_services_manager" = "Services Manager";
+"prefs.display_services_manager_desc" = "S'il est désactivé, vous ne pourrez pas voir, démarrer ou arrêter les différents services. (Si des services sont désactivés, vous ne pourrez pas facilement voir que c'est le cas).";
+"prefs.display_services_manager" = "Gestionnaire des services";
 
-"prefs.display_valet_integration_desc" = "If disabled, you will not be able to locate the main Valet folder or open the list of domains.";
-"prefs.display_valet_integration" = "Valet Integration";
+"prefs.display_valet_integration_desc" = "Si elle est désactivée, vous ne pourrez pas localiser le dossier principal de Valet ni ouvrir la liste des domaines.";
+"prefs.display_valet_integration" = "Intégration Valet";
 
-"prefs.display_php_config_finder_desc" = "If disabled, you will not be able to easily locate your PHP configuration files and/or generate a phpinfo() dump.";
-"prefs.display_php_config_finder" = "PHP Config Finder";
+"prefs.display_php_config_finder_desc" = "Si cette option est désactivée, vous ne pourrez pas localiser facilement vos fichiers de configuration PHP et/ou générer un dump phpinfo().";
+"prefs.display_php_config_finder" = "Chercheur de configuration PHP";
 
-"prefs.display_composer_toolkit_desc" = "If disabled, you will not be able to invoke Composer via the main menu. The automatic Composer update after switching preference is unaffected by this change.";
-"prefs.display_composer_toolkit" = "Composer Toolkit";
+"prefs.display_composer_toolkit_desc" = "Si cette option est désactivée, vous ne pourrez pas invoquer Composer via le menu principal. La mise à jour automatique de Composer après avoir changé de préférence n'est pas affectée par ce changement.";
+"prefs.display_composer_toolkit" = "Boîte à Outils Composer";
 
-"prefs.display_limits_widget_desc" = "If disabled, you will not be able to see the limits widget (memory, POST, upload) in the main menu.";
-"prefs.display_limits_widget" = "Limits Widget";
+"prefs.display_limits_widget_desc" = "Si cette option est désactivée, vous ne pourrez pas voir le widget des limites (mémoire, POST, téléchargement) dans le menu principal.";
+"prefs.display_limits_widget" = "Widget des Limites";
 
-"prefs.display_extensions_desc" = "If disabled, you will not be able to easily toggle extensions via the main menu.";
+"prefs.display_extensions_desc" = "Si cette option est désactivée, vous ne pourrez pas contrôler facilement les extensions via le menu principal.";
 "prefs.display_extensions" = "Extensions";
 
-"prefs.display_presets_desc" = "If disabled, you will not be able to apply or revert PHP configuration presets.";
-"prefs.display_presets" = "Presets";
+"prefs.display_presets_desc" = "Si cette option est désactivée, il ne sera pas possible d'appliquer ou de revenir sur les préréglages de configuration de PHP.";
+"prefs.display_presets" = "Préréglages";
 
-"prefs.display_misc_desc" = "If disabled, you will not be able to access the First Aid & Services menu.";
-"prefs.display_misc" = "First Aid & Services Menu";
+"prefs.display_misc_desc" = "Si vous êtes désactivé, vous ne pourrez pas accéder au menu Premiers Secours et Services.";
+"prefs.display_misc" = "Menu Premiers Secours et Services";
 
 // NOTIFICATIONS
 
