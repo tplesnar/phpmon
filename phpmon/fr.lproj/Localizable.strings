@@ -311,10 +311,8 @@ Cela n'a pas d'effet sur les autres terminaux, mais uniquement sur la session de
 "domain_list.alert.invalid_folder_name_desc" = "Ce dossier n'a pas pu être résolu en une URL valide. Cela est généralement dû à la présence d'un espace dans le nom du dossier. Veuillez renommer le dossier, recharger la liste des sites et réessayer.";
 
 "domain_list.columns.tls" = "TLS";
-"domain_list.columns.domain" = "Domaine";
 "domain_list.columns.php" = "PHP";
 "domain_list.columns.type" = "Type";
-"domain_list.columns.kind" = "Sorte";
 
 // DRIVERS
 
@@ -344,12 +342,10 @@ Cela n'a pas d'effet sur les autres terminaux, mais uniquement sur la session de
 "prefs.tabs.notifications" = "Notifications";
 
 "prefs.global_shortcut" = "Raccourci Clavier Global :";
-"prefs.dynamic_icon" = "Icône Dynamique :";
 "prefs.dynamic_icon" = "Type d'Icône :";
 "prefs.info_density" = "Densité d'Informations :";
 "prefs.services" = "Services :";
 "prefs.switcher" = "Sélecteur :";
-"prefs.php_doctor" = "PHP Doctor:";
 "prefs.php_doctor" = "PHP Doctor:";
 "prefs.integrations" = "Intégrations:";
 "prefs.updates" = "Mises-à-jour:";
