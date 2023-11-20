@@ -612,90 +612,90 @@ Vous pouvez mettre à jour en executant `composer global update` dans votre term
 "startup.errors.php_opt.desc" = "Si vous avez déjà installé la formule `php`, vous pouvez avoir besoin de lancer `brew install php` pour que PHP Monitor détecte cette installation.";
 
 /// PHP binary is broken
-"startup.errors.dyld_library.title" = "PHP is installed, but appears to be broken";
-"startup.errors.dyld_library.subtitle" = "When PHP Monitor is attempting to run commands, it is failing to do so correctly. This is usually an indicator of a broken PHP installation.";
-"startup.errors.dyld_library.desc" = "Running `brew reinstall php && brew link php` in your Terminal may resolve this issue, so please give that a try.";
+"startup.errors.dyld_library.title" = "PHP est installé, mais ne fonctionne manifestement pas.";
+"startup.errors.dyld_library.subtitle" = "Lorsque le PHP Monitor tente d'exécuter des commandes, il ne parvient pas à le faire correctement. C'est généralement un indicateur d'une installation PHP défectueuse.";
+"startup.errors.dyld_library.desc" = "Lancer `brew reinstall php && brew link php` dans votre Terminal peut résoudre ce problème, veuillez donc essayer.";
 
 /// Valet is not installed
-"startup.errors.valet_executable.title" = "Laravel Valet is not correctly installed";
-"startup.errors.valet_executable.subtitle" = "You must install Valet with Composer. The app will not work correctly until you resolve this issue.";
-"startup.errors.valet_executable.desc" = "If you haven't installed Laravel Valet yet, please do so first. If you have it installed but are seeing this message anyway, then try running `which valet` in Terminal, it should return: `%@`.";
+"startup.errors.valet_executable.title" = "Laravel Valet n'est pas correctement installé";
+"startup.errors.valet_executable.subtitle" = "Vous devez installer Valet avec Composer. L'application ne fonctionnera pas correctement tant que vous n'aurez pas résolu ce problème.";
+"startup.errors.valet_executable.desc" = "Si vous n'avez pas encore installé Laravel Valet, faites-le d'abord. Si vous l'avez installé mais que vous voyez quand même ce message, essayez de lancer `which valet` dans Terminal, il devrait retourner : `%@`.";
 
 /// Valet configuration file missing or broken
-"startup.errors.valet_json_invalid.title" = "Laravel Valet configuration file invalid or missing";
-"startup.errors.valet_json_invalid.subtitle" = "PHP Monitor needs to be able to read the configuration file. It appears the file is malformed or missing. Please check that it exists and is formatted correctly.";
-"startup.errors.valet_json_invalid.desc" = "You can find the file at `~/.config/valet/config.json`. If Laravel Valet cannot parse the configuration file, running any `valet` command will usually automatically fix the JSON file. Try running `valet --version` to automatically fix the file.";
+"startup.errors.valet_json_invalid.title" = "Fichier de configuration de Laravel Valet invalide ou manquant";
+"startup.errors.valet_json_invalid.subtitle" = "PHP Monitor doit pouvoir lire le fichier de configuration. Il semble que le fichier soit malformé ou manquant. Veuillez vérifier qu'il existe et qu'il est correctement formaté.";
+"startup.errors.valet_json_invalid.desc" = "Vous pouvez trouver le fichier à `~/.config/valet/config.json`. Si Laravel Valet ne peut pas analyser le fichier de configuration, l'exécution de n'importe quelle commande `valet` corrigera automatiquement le fichier JSON. Essayez d'exécuter `valet --version` pour corriger automatiquement le fichier.";
 
 /// Valet version not readable
-"startup.errors.valet_version_unknown.title" = "Your Valet version could not be read";
-"startup.errors.valet_version_unknown.subtitle" = "Parsing the output of `valet --version` failed. Make sure your Valet installation works and is up-to-date.";
-"startup.errors.valet_version_unknown.desc" = "Try running `valet --version` in a terminal to find out what's going on.";
+"startup.errors.valet_version_unknown.title" = "La version de votre Valet n'a pu être lue";
+"startup.errors.valet_version_unknown.subtitle" = "L'analyse de la réponse de `valet --version` a échoué. Assurez-vous que votre installation de Valet fonctionne et qu'elle est à jour.";
+"startup.errors.valet_version_unknown.desc" = "Essayez de lancer `valet --version` dans un terminal pour savoir ce qui se passe.";
 
-"startup.errors.valet_not_installed.title" = "Your Valet configuration directory is missing";
-"startup.errors.valet_not_installed.subtitle" = "The required directory `~/.config/valet` is missing. This usually means that you forgot to run `valet install`.";
-"startup.errors.valet_not_installed.desc" = "Assuming you already installed Valet via Composer, please run `valet install` to finish setting up Laravel Valet.
+"startup.errors.valet_not_installed.title" = "Le dossier de configuration de Valet est absent";
+"startup.errors.valet_not_installed.subtitle" = "Le répertoire requis `~/.config/valet` est manquant. Cela signifie généralement que vous avez oublié d'exécuter `valet install`.";
+"startup.errors.valet_not_installed.desc" = "En supposant que vous avez déjà installé Valet via Composer, lancez `valet install` pour terminer la configuration de Laravel Valet.
 
-If you are seeing this message but are confused why this folder has gone missing, then you may want to investigate why it is gone—it shouldn't just disappear and it means your Valet installation is broken.";
+Si vous voyez ce message mais que vous ne savez pas pourquoi ce dossier a disparu, vous pouvez chercher à savoir pourquoi il a disparu - il ne devrait pas disparaître comme ça et cela signifie que l'installation de Valet est défectueuse.";
 
 // Valet version too new or old
-"startup.errors.valet_version_not_supported.title" = "This version of Valet is not supported";
-"startup.errors.valet_version_not_supported.subtitle" = "You are running a version of Valet that is currently not supported. PHP Monitor currently works with Valet v2, v3 and v4. In order to avoid causing issues on your system, PHP Monitor cannot start.";
-"startup.errors.valet_version_not_supported.desc" = "You must install a version of Valet that is compatible with PHP Monitor, or you may need to upgrade to a newer version of PHP Monitor which may include compatibility for this version of Valet (consult the latest release notes for more info).";
+"startup.errors.valet_version_not_supported.title" = "Cette version de Valet n'est pas compatible";
+"startup.errors.valet_version_not_supported.subtitle" = "Vous utilisez une version de Valet qui n'est pas supportée actuellement. PHP Monitor fonctionne actuellement avec Valet v2, v3 et v4. Afin d'éviter de causer des problèmes sur votre système, PHP Monitor ne peut pas démarrer.";
+"startup.errors.valet_version_not_supported.desc" = "Vous devez installer une version de Valet qui est compatible avec PHP Monitor, ou vous pouvez avoir besoin de mettre à jour vers une version plus récente de PHP Monitor qui peut inclure la compatibilité avec cette version de Valet (consultez les dernières notes de version pour plus d'informations).";
 
 /// Brew & sudoers
-"startup.errors.sudoers_brew.title" = "Brew has not been added to sudoers.d";
-"startup.errors.sudoers_brew.subtitle" = "You must run `sudo valet trust` to ensure Valet can start and stop services without having to use sudo every time. The app will not work correctly until you resolve this issue.";
-"startup.errors.sudoers_brew.desc" = "If you keep seeing this error, it is possible that there is a permission issue where PHP Monitor cannot validate the file, which can usually be resolved by running: `sudo chmod +r /private/etc/sudoers.d/brew`";
+"startup.errors.sudoers_brew.title" = "Brew n'a pas été ajouté à sudoers.d";
+"startup.errors.sudoers_brew.subtitle" = "Vous devez exécuter `sudo valet trust` pour vous assurer que Valet peut démarrer et arrêter les services sans avoir à utiliser sudo à chaque fois. L'application ne fonctionnera pas correctement tant que vous n'aurez pas résolu ce problème.";
+"startup.errors.sudoers_brew.desc" = "Si vous continuez à voir cette erreur, il est possible qu'il y ait un problème de permission où PHP Monitor ne peut pas valider le fichier, ce qui peut généralement être résolu en exécutant : `sudo chmod +r /private/etc/sudoers.d/brew`";
 
 /// Valet & sudoers
-"startup.errors.sudoers_valet.title" = "Valet has not been added to sudoers.d";
-"startup.errors.sudoers_valet.subtitle" = "You must run `sudo valet trust` to ensure Valet can start and stop services without having to use sudo every time. The app will not work correctly until you resolve this issue. If you did this before, please run `sudo valet trust` again.";
-"startup.errors.sudoers_valet.desc" = "If you keep seeing this error, it is possible that there is a permission issue where PHP Monitor cannot validate the file, which can usually be resolved by running: `sudo chmod +r /private/etc/sudoers.d/valet`";
+"startup.errors.sudoers_valet.title" = "Valet n'a pas été ajouté à sudoers.d";
+"startup.errors.sudoers_valet.subtitle" = "Vous devez exécuter `sudo valet trust` pour vous assurer que Valet peut démarrer et arrêter les services sans avoir à utiliser sudo à chaque fois. L'application ne fonctionnera pas correctement tant que vous n'aurez pas résolu ce problème. Si vous l'avez déjà fait, exécutez à nouveau `sudo valet trust`.";
+"startup.errors.sudoers_valet.desc" = "Si vous continuez à voir cette erreur, il est possible qu'il y ait un problème de permission où PHP Monitor ne peut pas valider le fichier, ce qui peut généralement être résolu en exécutant : `sudo chmod +r /private/etc/sudoers.d/valet`";
 
 /// Platform issue detected
-"startup.errors.global_composer_platform_issues.title" = "PHP Monitor and Valet cannot work correctly: Composer is reporting an issue with your platform";
-"startup.errors.global_composer_platform_issues.subtitle" = "Please follow these recommended steps to avoid seeing this issue in the future:\n\n1. Run `composer global update`.\n2. Restart PHP Monitor. (It should work again.)\n3. Switch to the oldest PHP version you have installed.\n4. Run `composer global update` again.";
-"startup.errors.global_composer_platform_issues.desc" = "You can go to Preferences and check the 'Automatically update global dependencies' option. This will update your global Composer dependencies whenever you change PHP versions, so this may not be ideal if you may not have constant access to the internet.\n\nTo find out exactly what's going wrong, try running `valet --version`. Valet is currently not functional with the installed dependencies. Usually this is caused by a version mismatch: i.e. installed dependencies for a newer version of PHP than the version that is currently active.";
+"startup.errors.global_composer_platform_issues.title" = "PHP Monitor et Valet ne peuvent pas fonctionner correctement : Composer signale un problème avec votre plateforme";
+"startup.errors.global_composer_platform_issues.subtitle" = "Veuillez suivre les étapes suivantes pour éviter ce problème à l'avenir :\n\n1. Exécuter `composer global update`.\n2. Redémarrer PHP Monitor. (Il devrait fonctionner à nouveau.)\n3. Passez à la version la plus ancienne de PHP que vous avez installée.\n4. Exécutez à nouveau  `composer global update`.";
+"startup.errors.global_composer_platform_issues.desc" = "Vous pouvez aller dans Préférences et cocher l'option 'Mettre à jour automatiquement les dépendances globales'. Cela mettra à jour les dépendances globales de Composer à chaque fois que vous changerez de version de PHP, ce qui n'est pas idéal si vous n'avez pas un accès constant à internet.\n\nPour savoir exactement ce qui ne va pas, essayez de lancer `valet --version`. Valet n'est actuellement pas fonctionnel avec les dépendances installées. Habituellement, cela est dû à une incompatibilité de version : c'est-à-dire que les dépendances installées correspondent à une version de PHP plus récente que la version actuellement active.";
 
 /// Cannot retrieve services
-"startup.errors.services_json_error.title" = "Cannot determine services status";
-"startup.errors.services_json_error.subtitle" = "PHP Monitor usually queries `brew` using the following command to test if the services can be retrieved: `sudo brew services info nginx --json`.\n\nPHP Monitor could not interpret this response.";
-"startup.errors.services_json_error.desc" = "This can happen if your Homebrew installation is out of date, in which case Homebrew won't return JSON yet. You can usually fix this by running `brew update` or `brew tap homebrew/services`. You can also try running `sudo brew services info nginx --json` in your terminal of choice.";
+"startup.errors.services_json_error.title" = "Impossible de déterminer l'état des services";
+"startup.errors.services_json_error.subtitle" = "PHP Monitor interroge habituellement `brew` en utilisant la commande suivante pour tester si les services peuvent être récupérés : `sudo brew services info nginx --json`.\n\n Le moniteur PHP n'a pas pu interpréter cette réponse.";
+"startup.errors.services_json_error.desc" = "Cela peut arriver si votre installation Homebrew n'est pas à jour, auquel cas Homebrew ne renverra pas encore de JSON. Vous pouvez généralement corriger cela en lançant `brew update` ou `brew tap homebrew/services`. Vous pouvez aussi essayer de lancer `sudo brew services info nginx --json` dans le terminal de votre choix.";
 
 /// Issue with `which` alias
-"startup.errors.which_alias_issue.title" = "A configuration issue was detected";
-"startup.errors.which_alias_issue.subtitle" = "It appears that there's a file in `/usr/local/bin/which`. This is usually set up by NodeJS, but `node` isn't in the PATH in `/usr/local/bin`. To fix this, keep reading.";
-"startup.errors.which_alias_issue.desc" = "You will need to symlink `node` into the `/usr/local/bin` directory to make sure PHP Monitor can start successfully. For more info, see: https://github.com/nicoverbruggen/phpmon/issues/174";
+"startup.errors.which_alias_issue.title" = "Un problème de configuration a été détecté";
+"startup.errors.which_alias_issue.subtitle" = "Il semble qu'il y ait un fichier dans `/usr/local/bin/which`. Ceci est généralement mis en place par NodeJS, mais `node` n'est pas dans le PATH de `/usr/local/bin`. Pour corriger cela, continuez à lire.";
+"startup.errors.which_alias_issue.desc" = "Vous devrez faire un lien symbolique entre `node` et le répertoire `/usr/local/bin` pour vous assurer que PHP Monitor peut démarrer avec succès. Pour plus d'informations, voir : https://github.com/nicoverbruggen/phpmon/issues/174";
 
 /// Laravel Herd conflicts
-"startup.errors.herd_running.title" = "Laravel Herd appears to be running";
-"startup.errors.herd_running.subtitle" = "It seems that Laravel Herd is currently running. Herd's built-in Valet setup may conflict with your regular Valet installation, so please quit Herd before continuing. (You can perfectly mix usage of Herd and regular Valet but you shouldn't run both at the same time.)";
-"startup.errors.herd_running.desc" = "You may also find that the `php` alias by Herd added to your $PATH may prevent `php` aliasing of PHP Monitor from working, so keep that in mind. You can check out `~/.zshrc` and see what Herd has added to your $PATH.";
+"startup.errors.herd_running.title" = "Laravel Herd semble être lancé";
+"startup.errors.herd_running.subtitle" = "Il semble que Laravel Herd soit en cours d'exécution. La configuration de Valet intégrée à Herd peut entrer en conflit avec votre installation habituelle de Valet, veuillez donc quitter Herd avant de continuer. (Vous pouvez parfaitement mélanger l'utilisation de Herd et de Valet mais vous ne devez pas utiliser les deux en même temps).";
+"startup.errors.herd_running.desc" = "Vous pouvez également constater que l'alias `php` ajouté par Herd à votre $PATH peut empêcher l'alias `php` de PHP Monitor de fonctionner, alors gardez cela à l'esprit. Vous pouvez vérifier `~/.zshrc` et voir ce que Herd a ajouté à votre $PATH.";
 
 // Warning about a different PHP version linked than last time
-"startup.version_mismatch.title" = "Your active PHP version has changed.";
-"startup.version_mismatch.subtitle" = "Since PHP Monitor was last active, your linked PHP version has been changed to PHP %@. Would you like to switch back to PHP %@, or do you want to keep using the current version?";
-"startup.version_mismatch.desc" = "PHP Monitor keeps track of which version of PHP is globally linked. The global version may have been changed due to some other program or Homebrew may have linked a different formula after upgrades.";
-"startup.version_mismatch.button_switch_back" = "Switch back to PHP %@";
-"startup.version_mismatch.button_stay" = "Keep using PHP %@";
+"startup.version_mismatch.title" = "Votre version active de PHP a changé.";
+"startup.version_mismatch.subtitle" = "Depuis la dernière activation du moniteur PHP, la version PHP liée a été modifiée pour PHP %@. Souhaitez-vous revenir à PHP %@, ou souhaitez-vous continuer à utiliser la version actuelle ?";
+"startup.version_mismatch.desc" = "PHP Monitor surveille la version de PHP qui est liée globalement. La version globale peut avoir été changée à cause d'un autre programme ou Homebrew peut avoir lié une formule différente après les mises à jour.";
+"startup.version_mismatch.button_switch_back" = "Revenir à PHP %@";
+"startup.version_mismatch.button_stay" = "Continuer à utiliser PHP %@";
 
 // Warning about unsupported PHP versions
-"startup.unsupported_versions_explanation.title" = "PHP installation(s) not supported by Valet detected!";
-"startup.unsupported_versions_explanation.subtitle" = "The following PHP versions are installed on your system but are not supported by this version of Valet.
+"startup.unsupported_versions_explanation.title" = "Installation(s) PHP non supportée(s) par Valet détectée(s) !";
+"startup.unsupported_versions_explanation.subtitle" = "Les versions suivantes de PHP sont installées sur votre système mais ne sont pas supportées par cette version de Valet.
 
 %@
 
-Valet might break if you link these PHP versions so PHP Monitor won't let you switch to them.";
-"startup.unsupported_versions_explanation.desc" = "If you need support for older versions of PHP, you may need to downgrade to an older versions of Valet. Otherwise, it might be a good idea to uninstall any outdated versions that are not in use. It can also be that this version of Valet is too old. This message will only be removed after restarting PHP Monitor.";
+Valet risque de ne pas fonctionner si vous liez ces versions de PHP, c'est pourquoi PHP Monitor ne vous laissera pas passer à ces versions.";
+"startup.unsupported_versions_explanation.desc" = "Si vous avez besoin de la prise en charge de versions plus anciennes de PHP, vous devrez peut-être passer à une version plus ancienne de Valet. Sinon, il peut être judicieux de désinstaller toutes les versions obsolètes qui ne sont pas utilisées. Il se peut également que cette version de Valet soit trop ancienne. Ce message ne disparaîtra qu'après le redémarrage de PHP Monitor.";
 
 // Sponsor encouragement
-"startup.sponsor_encouragement.title" = "If PHP Monitor has been useful to you or your company, please consider leaving a tip.";
-"startup.sponsor_encouragement.subtitle" = "To be 100% transparent: I plan to keep PHP Monitor open source and free. Your support makes this decision very easy.\n\n(You will only see this prompt once.)";
-"startup.sponsor_encouragement.desc" = "If you have already donated, then YOU are the reason why the app was able to get all these updates. In that case, this is a THANK YOU message to you. I appreciate the support.";
+"startup.sponsor_encouragement.title" = "Si PHP Monitor vous a été utile, à vous ou à votre entreprise, n'hésitez pas à laisser un "tip".";
+"startup.sponsor_encouragement.subtitle" = "Pour être 100% transparent : je prévois de garder PHP Monitor open source et gratuit. Votre soutien rend cette décision très facile.\n\n - (Vous ne verrez cette annonce qu'une seule fois.)";
+"startup.sponsor_encouragement.desc" = "Si vous avez déjà fait un don, c'est grâce à VOUS que l'application a pu bénéficier de toutes ces mises à jour. Dans ce cas, ceci est un message de remerciement pour vous. J'apprécie votre soutien.";
 
-"startup.sponsor_encouragement.accept" = "Sponsor Now";
-"startup.sponsor_encouragement.learn_more" = "Learn More";
-"startup.sponsor_encouragement.skip" = "No Thanks";
+"startup.sponsor_encouragement.accept" = "Sponsoriser Maintenant";
+"startup.sponsor_encouragement.learn_more" = "En Apprendre Plus";
+"startup.sponsor_encouragement.skip" = "Non Merci";
 
 // ERROR MESSAGES (based on AlertableError)
 
